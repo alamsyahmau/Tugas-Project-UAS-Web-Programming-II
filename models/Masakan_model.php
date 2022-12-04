@@ -38,4 +38,4 @@ class Masakan_model extends CI_Model {
 }
 
 /* End of file Masakan_model.php */
-/* Location: ./application/models/Masakan_model.php  */
+/* Location: ./application/models/Masakan_model.php */

@@ -45,4 +45,4 @@ class Auth_model extends CI_Model {
 }
 
 /* End of file Auth_model.php */
-/* Location: ./application/models/Auth_model.php  */
+/* Location: ./application/models/Auth_model.php */

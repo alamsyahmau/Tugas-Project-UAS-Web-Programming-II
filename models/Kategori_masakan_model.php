@@ -37,4 +37,4 @@ class Kategori_masakan_model extends CI_Model {
 }
 
 /* End of file Kategori_masakan_model.php */
-/* Location: ./application/models/Kategori_masakan_model */
+/* Location: ./application/models/Kategori_masakan_model*/
