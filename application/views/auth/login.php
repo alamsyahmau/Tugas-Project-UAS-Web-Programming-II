@@ -3,7 +3,8 @@
  
 <head>
     <?php $this->load->view('_partials/head'); ?>
-    <title>Dashboard</title>
+    <title>Sop Durian Abnurmal</title>
+    <link rel="shortcut icon" href="favicon.ico">
     <style>
         html,
         body {
@@ -28,8 +29,8 @@
     <div class="splash-container">
         <div class="card ">
             <div class="card-header">
-                <h3 class="mb-1">Login Form</h3>
-                <p>Isi Data Akunmu.</p>
+                <h3 class="mb-1">Login Cafe Sop Durian Abnurmal</h3>
+                <p>Isi Data Akun Admin.</p>
             </div>
             <div class="card-body">
                 <div class="info"></div>

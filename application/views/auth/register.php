@@ -3,7 +3,8 @@
  
 <head>
     <?php $this->load->view('_partials/head'); ?>
-    <title>Dashboard</title>
+    <title>Sop Durian Abnurmal</title>
+    <link rel="shortcut icon" href="favicon.ico">
     <style>
         html,
         body {

@@ -9,20 +9,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav flex-column">
                 <li class="nav-divider">
-                    Master
+                    Master Menu
                 </li>
                 <li class="nav-item">
                     <a href="<?php echo site_url('') ?>" class="nav-link <?php echo $uri == '' | $uri === 'dashboard' ? 'active' : '' ?>"><i class="fa fa-fw fa-chart-area"></i>Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link <?php echo $uri === 'kategori_masakan' | $uri === 'masakan' ? 'active' : '' ?>" data-toggle="collapse" aria-expanded="false" data-target="#data-menu" aria-controls="#data-menu"><i class="fa fa-fw fa-book"></i>Masakan</a>
-                    <div id="data-menu" class="collapse submenu <?php echo $uri === 'kategori_masakan' | $uri === 'masakan' ? 'show' : '' ?>">
+                    <a href="http://localhost/cafe_abnurmal/kategori_menu" class="nav-link <?php echo $uri === 'kategori_menu' | $uri === 'menu' ? 'active' : '' ?>" data-toggle="collapse" aria-expanded="false" data-target="#data-menu" aria-controls="#data-menu"><i class="fa fa-fw fa-book"></i>Menu</a>
+                    <div id="data-menu" class="collapse submenu <?php echo $uri === 'kategori_menu' | $uri === 'menu' ? 'show' : '' ?>">
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a href="<?php echo site_url('kategori_masakan') ?>" class="nav-link <?php echo $uri === 'kategori_masakan' ? 'active' : '' ?>">Kategori</a>
+                                <a href="<?php echo site_url('kategori_menu') ?>" class="nav-link <?php echo $uri === 'kategori_menu' ? 'active' : '' ?>">Kategori</a>
                             </li>
                             <li class="nav-item">
-                                <a href="<?php echo site_url('masakan') ?>" class="nav-link <?php echo $uri === 'masakan' ? 'active' : '' ?>">Data Masakan</a>
+                                <a href="<?php echo site_url('menu') ?>" class="nav-link <?php echo $uri === 'menu' ? 'active' : '' ?>">Data Menu</a>
                             </li>
                         </ul>
                     </div>

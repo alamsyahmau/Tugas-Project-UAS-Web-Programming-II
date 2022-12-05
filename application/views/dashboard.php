@@ -42,7 +42,7 @@
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link"></a></li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -58,9 +58,9 @@
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                                 <div class="card border-3 border-top border-top-primary">
                                     <div class="card-body">
-                                        <h5 class="text-muted">Total Masakan</h5>
+                                        <h5 class="text-muted">Total Menu</h5>
                                         <div class="metric-value d-inline-block">
-                                            <h1 class="mb-1"><?php echo $total_masakan ?></h1>
+                                            <h1 class="mb-1"><?php echo $total_menu ?></h1>
                                         </div>
                                     </div>
                                 </div>
